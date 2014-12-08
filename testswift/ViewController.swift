@@ -11,9 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        myLabel.text = "こんにちは"
+        myLabel.textColor = UIColor.magentaColor()
+        myLabel.font = UIFont.systemFontOfSize(14)
     }
 
     override func didReceiveMemoryWarning() {
